@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+.font-title{
+    font-family: 'Indie Flower';
+    color:#3569ff
+  }
+  .font-note{
+    font-family: 'Indie Flower';
+    
+  }
+  .description{
+    word-wrap: break-word;
+  }

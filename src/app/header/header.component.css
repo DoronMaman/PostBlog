@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+header {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 10% 10px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    font-family: 'Indie Flower';
+}
+.header-size{
+    font-size: 3.5rem;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="card-deck">
+		<div (click)="newPost()" class="card my-3 point-mouse">
+			<img src="../../assets/Document Add.ico" class="card-img-top">
+		</div>
+		<div *ngFor="let post of posts$ | async" class="card my-3 point-mouse">
+			<div (click)="open(post)" class="card-body">
+				<h4 class="card-title font-title">{{post.author}}</h4>
+				<p class="card-text">{{post.description|slice:0:120}}...</p>
+			</div>
+		</div>
+	</div>
+</div>
+
